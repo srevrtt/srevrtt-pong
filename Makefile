@@ -2,4 +2,4 @@ all:
 	g++ -std=c++14 -g -Wall ./src/*.cpp ./bin/*.dll -I deps/include -L deps/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -lSDL2_image -mwindows -o bin/game
 
 clean:
-	rm bin/game.exe
+	del bin/game.exe
