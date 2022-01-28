@@ -4,7 +4,7 @@
  release, so expect some bugs. Linux/MacOS support will come soon.
 
  ## Running
- 
+ To run this program, you must go to https://github.com/srevrtt/srevrtt-pong/releases and download the .zip file on there. You can follow the directions on the release.
 
  ## Building (only Windows support currently)
  ### Windows
