@@ -27,8 +27,9 @@ To build on windows, you need to install mingw32. Use these commmands to install
 ## Release v1.0.1
 Added more DLLs in the binary so the user does not have to install mingw.
 
-## TODOS:
+## TODOs:
 - Add AI
 - Add start screen
 - Revamp ball physics
 - Add a play again button when a player wins
+- Add Linux/MacOS support
