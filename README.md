@@ -14,3 +14,21 @@ To build on windows, you need to install mingw32. Use these commmands to install
 - `$ cd srevrtt-pong`
 - `$ make`
 - `$ ./bin/game.exe`
+
+## Controls
+- W key: move first paddle up
+- S key: move first paddle down
+- Up arrow key: move second paddle up
+- Down arrow key: move second paddle down
+- Q key: start game
+- Escape key: pause
+- Space key: unpause
+
+## Release v1.0.1
+Added more DLLs in the binary so the user does not have to install mingw.
+
+## TODOS:
+- Add AI
+- Add start screen
+- Revamp ball physics
+- Add a play again button when a player wins
