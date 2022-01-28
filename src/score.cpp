@@ -10,8 +10,4 @@
 void Score::update(Window window) {
     window.renderFont(this->x, 25, this->score);
     std::cout << this->score << std::endl;
-
-    if (this->score == 10) {
-        // TODO: add end screen
-    }
 }

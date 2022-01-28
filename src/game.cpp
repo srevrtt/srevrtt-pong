@@ -118,7 +118,6 @@ bool run() {
             }
 
             if (ball.y <= 0) {
-                std::cout << "noob" << std::endl;
                 if (currentPaddle == 1) {
                     
                     ball.velocity = -1.5;
@@ -138,8 +137,6 @@ bool run() {
             }
 
             if (ball.x <= 0) {
-                std::cout << "noob" << std::endl;
-
                 player1.reset(0);
                 player2.reset(1);
 
@@ -147,8 +144,6 @@ bool run() {
 
                 ball.reset();
             } else if (ball.x >= 785) {
-                std::cout << "noob" << std::endl;
-
                 player1.reset(0);
                 player2.reset(1);
 
